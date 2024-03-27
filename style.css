@@ -9,11 +9,11 @@ html {
 }
 
 body {
- height: 100vh;
- padding: 60px;
+ margin-inline: auto;
+ padding: 25px;
  align-items: center;
  place-items: center;
-
+ min-height: 100vh;
 }
 
 .Title {
@@ -88,8 +88,8 @@ body {
  position: absolute;
  top: 0;
  right: 0;
- width: 200px;
- height: 80%;
+ width: 170px;
+ height: 70%;
  border: none;
  background: none;
  cursor: pointer;
@@ -129,6 +129,7 @@ input[type="checkbox"] {
 .line2 {
  padding: 15px;
  border-bottom: 1px solid grey;
+
 }
 
 .line3 {
@@ -153,11 +154,6 @@ input[type="checkbox"] {
 
 .side {
  float: right;
-}
-
-.grid {
- display: inline-table;
-
 }
 
 h1 {
