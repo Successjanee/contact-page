@@ -21,12 +21,13 @@
   <h3 class="Title">Payment method</h3>
   <form action="" class="text">Card information
     <br>
-    <button class="iconX"><i class="fab fa-cc-visa"></i> <!-- Visa -->
-      <i class="fab fa-cc-mastercard"></i> <!-- Mastercard -->
-      <i class="fab fa-cc-amex"></i> <!-- American Express -->
-      <i class="fab fa-cc-paypal"></i> <!-- Paypal --></button>
-    <input type="card number" placeholder="1234 5678 9000" class="icon">
-    <br>
+    <div class="visa">
+      <button class="iconX"><i class="fab fa-cc-visa"></i> <!-- Visa -->
+        <i class="fab fa-cc-mastercard"></i> <!-- Mastercard -->
+        <i class="fab fa-cc-amex"></i> <!-- American Express -->
+        <i class="fab fa-cc-paypal"></i> <!-- Paypal --></button>
+      <input type="card number" placeholder="1234 5678 9000" class="icon">
+    </div>
     <input type="month/year" placeholder="MM/YY" class="Box2"><input type="text" placeholder="CVC" class="Box2">
     <br>
     <br>
@@ -82,8 +83,10 @@
   <br>
   <br><br><br>
   <div class="Second">
-    <a href="#"> <span class="material-symbols-outlined">
-        arrow_back</span> Back To Homepage</a>
+    <div class="arrow">
+      <span class="material-symbols-outlined">Arrow_back</span>
+      <a href="#" class="arrowback">back to homepage</a>
+    </div>
     <br>
     <br>
     <br>

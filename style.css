@@ -169,15 +169,21 @@ h1 {
 .three {
  font-weight: lighter;
  font-size: 15px;
-
 }
 
 .p {
  color: #8d8888;
 }
 
+@media screen and (min-width:300px) {
+ a {
+  margin-top: 0;
+ }
+}
 
-
-
+.arrow,
+.visa {
+ display: flex;
+}
 
 /* mix-blend-mode: multiply; */
